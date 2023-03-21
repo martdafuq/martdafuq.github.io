@@ -39,3 +39,9 @@ const draw = () => {
 };
 
 setInterval(draw, 30);
+
+canvas.addEventListener('click', ()=>{
+  document.location.href = 'https://martdafuq.github.io/welcome/'
+});
+
+console.log('Click anywhere to enter site');
