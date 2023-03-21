@@ -1,4 +1,9 @@
 const canvas = document.getElementById("canvas");
+
+canvas.addEventListener('click', ()=>{
+  document.location.href = 'https://martdafuq.github.io/welcome/'
+});
+
 const c = canvas.getContext("2d");
 
 const fontHeight = 14;
