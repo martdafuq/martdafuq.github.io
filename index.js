@@ -43,5 +43,10 @@ setInterval(draw, 30);
 canvas.addEventListener('click', ()=>{
   document.location.href = 'https://martdafuq.github.io/welcome/'
 });
+canvas.addEventListener('keypress', function(event) {
+  if (event.key === 'Enter') {
+    document.location.href = 'https://martdafuq.github.io/welcome/'
+  }
+});
 
 console.log('Click anywhere to enter site');
