@@ -54,7 +54,7 @@ mini = [
 
 skill = [
   "<br>",
-  '<i class="fa-brands fa-html5"></i>',
+  '<i class="fa-brands fa-html5"/> <i class="fa-brands fa-css3-alt"/> <i class="fa-brands fa-js"/> <i class="fa-brands fa-node-js"/> <i class="fa-brands fa-php"/> <i class="fa-brands fa-java"/> <i class="fa-brands fa-python"/>',
   "<br>"
 ];
 
