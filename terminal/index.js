@@ -111,6 +111,12 @@ function commander(cmd) {
     case "mini":
       loopLines(mini, "color2 margin", 80);
       break;
+    case "skill":
+      loopLines(skill, "color2 margin", 80);
+      break;
+      case "certificate":
+        loopLines(certificate, "color2 margin", 80);
+        break;
     case "password":
       addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);
       break;

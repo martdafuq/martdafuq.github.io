@@ -4,7 +4,7 @@ var github = "https://github.com/martdafuq/";
 var email = 'mailto:pacharapon.business@gmail.com';
 var weather = "https://martdafuq.github.io/weather/";
 var snake = "https://martdafuq.github.io/snake-game/";
-var coin = "https://martdafuq.github.io/flip-coin/"
+var coin = "https://martdafuq.github.io/flip-coin/";
 
 whois = [
   "<br>",
@@ -38,11 +38,23 @@ projects = [
   "<br>"
 ];
 
+certificate = [
+  "<br>",
+  '<a href="martdafuq.github.io/terminal/images/certificates/HackerX.jpg" target="_blank"> <img width=20% src="images/certificates/HackerX.jpg"/></a>',
+  "<br>"
+];
+
 mini = [
   "<br>",
   'weather app    <a href="' + weather + '" target="_blank">martdafuq.github.io/weather/' + "</a>",
   'snake game     <a href="' + snake + '" target="_blank">martdafuq.github.io/snake-game/' + "</a>",
   'flip a coin    <a href="' + coin + '" target="_blank">martdafuq.github.io/flip-coin/' + "</a>",
+  "<br>"
+];
+
+skill = [
+  "<br>",
+  '<i class="fa-brands fa-html5"></i>',
   "<br>"
 ];
 
