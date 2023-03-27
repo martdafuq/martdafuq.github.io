@@ -40,7 +40,7 @@ projects = [
 
 certificate = [
   "<br>",
-  '<a href="martdafuq.github.io/terminal/images/certificates/HackerX.jpg" target="_blank"> <img width=20% src="images/certificates/HackerX.jpg"/></a>',
+  '<a href="images/certificates/HackerX.jpg" target="_blank"> <img width=20% src="images/certificates/HackerX.jpg"/></a>',
   "<br>"
 ];
 
