@@ -1,0 +1,14 @@
+body {
+    max-width: max-content;
+    margin: auto;
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: chartreuse;
+}
+
+header {
+    text-align: center;
+}
