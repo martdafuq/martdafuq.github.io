@@ -12,3 +12,12 @@ a {
 header {
     text-align: center;
 }
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+nav {
+    text-align: center;
+}
