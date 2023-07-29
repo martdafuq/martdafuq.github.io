@@ -1,8 +1,27 @@
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
 body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
     max-width: max-content;
     margin: auto;
     color: white;
     background-color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 a {
