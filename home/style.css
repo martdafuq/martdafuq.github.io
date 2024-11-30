@@ -1,42 +1,43 @@
-header {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
-}
-
-pre {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
-}
-
 body {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
-    max-width: max-content;
-    margin: auto;
-    color: white;
-    background-color: black;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-}
-
-a {
-    color: chartreuse;
-}
-
-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+    font-family: Arial, sans-serif;
+    color: #fff;
     text-align: center;
 }
-
-ul {
-    text-align: center;
-    list-style-position: inside;
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
-nav {
-    text-align: center;
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.spinner {
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    border: 6px solid #fff;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
